@@ -1,0 +1,10 @@
+[user]
+	name = yellowisk
+	email = h245293@dac.unicamp.br
+[safe]
+  directory = /usr/lib/flutter
+
+[includeIf "gitdir:/home/heito/Desktop/neuronhire/"]
+  path = ~/.gitconfig-work
+[init]
+	defaultBranch = main

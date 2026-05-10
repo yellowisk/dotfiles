@@ -1,0 +1,17 @@
+# Fish runtime state — written automatically by the shell
+.config/fish/fish_variables
+
+# Secrets / credentials — never commit these
+.netrc
+*_auth_token*
+*secret*
+*credentials*
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor swap/undo files
+*.swp
+*.swo
+*~
