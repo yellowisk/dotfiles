@@ -8,3 +8,15 @@
   path = ~/.gitconfig-work
 [init]
 	defaultBranch = main
+
+[alias]
+  c   = commit
+  ca  = commit --amend
+  co  = checkout
+  p   = push
+  pl  = pull
+  s   = status
+  l   = log --oneline --graph --decorate
+  d   = diff
+  ds  = diff --staged
+  br  = branch

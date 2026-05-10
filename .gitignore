@@ -1,6 +1,9 @@
 # Fish runtime state — written automatically by the shell
 .config/fish/fish_variables
 
+# Work git identity — contains work email, keep local only
+.gitconfig-work
+
 # Secrets / credentials — never commit these
 .netrc
 *_auth_token*
