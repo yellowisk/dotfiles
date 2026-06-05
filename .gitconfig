@@ -10,13 +10,19 @@
 	defaultBranch = main
 
 [alias]
-  c   = commit
-  ca  = commit --amend
-  co  = checkout
-  p   = push
-  pl  = pull
-  s   = status
-  l   = log --oneline --graph --decorate
-  d   = diff
-  ds  = diff --staged
-  br  = branch
+  c    = commit -m
+  ca   = commit --amend
+  a    = add .
+  co   = checkout
+  p    = push origin
+  pl   = pull origin
+  s    = status
+  l    = log --oneline --graph --decorate
+  d    = diff
+  ds   = diff --staged
+  br   = branch
+  st   = stash
+  stp  = stash pop
+  wta  = worktree add -b
+  wtr  = worktree remove
+  wtl  = worktree list
