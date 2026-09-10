@@ -10,6 +10,9 @@
 *secret*
 *credentials*
 
+# DMS config-migration backups (auto-generated, local only)
+.config/hypr/.dms-backups/
+
 # OS noise
 .DS_Store
 Thumbs.db

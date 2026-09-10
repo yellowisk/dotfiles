@@ -1,0 +1,1 @@
+-- Cursor settings (managed by DMS Settings > Cursor). No customization yet.

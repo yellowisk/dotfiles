@@ -26,3 +26,5 @@
   wta  = worktree add -b
   wtr  = worktree remove
   wtl  = worktree list
+[credential "https://git.heroku.com"]
+	helper = !heroku git:credentials
